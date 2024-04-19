@@ -8,7 +8,7 @@ A ideia do nosso projeto é criar um site que facilitara o acesso das pessoas a 
 * Enzo de Melo
 * Pedro Augusto
 * Henrique Cury
-* Mateus Ricardo
+* Matheus Ricardo
 * Glauco Schettino 
 
 ## Professores responsáveis
