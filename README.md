@@ -9,8 +9,9 @@ A ideia do nosso projeto é criar um site que facilitara o acesso das pessoas a 
 * Pedro Augusto
 * Henrique Cury
 * Matheus Ricardo
-* Glauco Schettino 
-
+* Glauco Schettino
+* Gabriel Costa
+  
 ## Professores responsáveis
 
 * Carolina Stephanie Jerônimo de Almeida
