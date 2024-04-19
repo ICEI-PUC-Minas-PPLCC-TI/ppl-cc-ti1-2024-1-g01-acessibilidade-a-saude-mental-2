@@ -1,6 +1,6 @@
 # Acessibilidade a Saúde Mental
 
-Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
+A ideia do nosso projeto é criar um site que facilitara o acesso das pessoas a profissionais na área da saúde mental. Para isso, nós iremos utilizar de registros com informações como horário vago para atendimento atráves de agendas, faixa de preço e localização para facilitar os paciente a encontrarem um profissional perfeito para suas necessidades.
 
 ## Alunos integrantes da equipe
 
