@@ -1,0 +1,13 @@
+{
+    "Paciente": [
+        {
+            "id": 1,
+            "nome": "Usuário da Silva Souza",
+            "foto": "user-photo.png",
+            "email": "Email@email.com",
+            "idade": 65,
+            "sexo": "Masculino",
+            "avaliacao": 3.5
+        }
+   ]
+}
