@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alguém para Ouvir</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="bg-success text-white text-center py-3">
+        <h1>Alguém para Ouvir</h1>
+    </header>
+
+    <main class="container my-5">
+        <div class="text-center mb-4">
+            <button id="askQuestionBtn" class="btn btn-primary">Faça uma Pergunta</button>
+        </div>
+        <div id="questionsContainer">
+            <!-- Perguntas e respostas aparecerão aqui -->
+        </div>
+        <hr>
+        <h2 class="text-center">Perguntas Frequentes</h2>
+        <div id="faqContainer">
+            <div class="card my-3">
+                <div class="card-body">
+                    <h5 class="card-title">Como funciona o site?</h5>
+                    <p class="card-text">O site “Alguém para ouvir” tem como objetivo aumentar a acessibilidade a psicólogos e psiquiatras, tendo em vista a importância de cuidar da saúde mental das pessoas na sociedade atual. O site promove esse contato entre paciente e psicólogo de maneira fácil e rápida.</p>
+                </div>
+            </div>
+            <div class="card my-3">
+                <div class="card-body">
+                    <h5 class="card-title">Quais são os critérios mais importantes a considerar ao escolher um psicólogo para lidar com ansiedade e estresse?</h5>
+                    <p class="card-text">Para escolher um psicólogo para ansiedade e estresse, procure um profissional especializado e experiente, verifique suas qualificações e credenciais, e certifique-se de que a abordagem terapêutica se alinha com suas necessidades. Leia avaliações de outros pacientes, sinta-se confortável com o psicólogo, e verifique disponibilidade, localização, custo e cobertura do plano de saúde. Esses fatores ajudarão a encontrar o profissional certo para você.</p>
+                </div>
+            </div>
+            <div class="card my-3">
+                <div class="card-body">
+                    <h5 class="card-title">Como funciona o pagamento?</h5>
+                    <p class="card-text">O pagamento é tratado diretamente com o psicólogo.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-success text-white text-center py-3">
+        <p>&copy; 2024 Alguém para Ouvir. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Modal para fazer perguntas -->
+    <div class="modal fade" id="askQuestionModal" tabindex="-1" role="dialog" aria-labelledby="askQuestionModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="askQuestionModalLabel">Faça sua Pergunta</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="questionForm">
+                        <div class="form-group">
+                            <label for="questionText">Pergunta</label>
+                            <textarea class="form-control" id="questionText" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
