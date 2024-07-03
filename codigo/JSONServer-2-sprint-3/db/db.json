@@ -1,0 +1,19 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Como funciona o site?",
+      "answer": "O site 'Alguém para ouvir' tem como objetivo aumentar a acessibilidade a psicólogos e psiquiatras..."
+    },
+    {
+      "id": 2,
+      "question": "Quais são os critérios mais importantes a considerar ao escolher um psicólogo para lidar com ansiedade e estresse?",
+      "answer": "Para escolher um psicólogo para ansiedade e estresse, procure um profissional especializado e experiente..."
+    },
+    {
+      "id": 3,
+      "question": "Como funciona o pagamento?",
+      "answer": "O pagamento é tratado diretamente com o psicólogo."
+    }
+  ]
+}

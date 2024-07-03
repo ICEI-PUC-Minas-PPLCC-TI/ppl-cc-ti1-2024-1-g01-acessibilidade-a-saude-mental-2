@@ -1,0 +1,41 @@
+body {
+  background-color: #f5f5dc; /* Bege claro */
+}
+
+.bg-success {
+  background-color: #90ee90 !important; /* Verde claro */
+}
+
+.navbar {
+  background-color: #f5f5dc; /* Bege claro */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  position: relative;
+}
+
+.menu-icon {
+  position: absolute;
+  left: 10px;
+}
+
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar-center img {
+  max-width: 100px;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Alinha à direita */
+}
+
+.nav-icons img {
+  max-width: 40px;
+}
