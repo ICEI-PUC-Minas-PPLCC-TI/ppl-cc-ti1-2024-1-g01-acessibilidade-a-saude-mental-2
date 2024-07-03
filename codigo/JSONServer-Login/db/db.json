@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "fullname": "a",
+      "email": "gabrielcunhacosta2005@hotmail.com",
+      "cpf": "1",
+      "birthdate": "1",
+      "password": "33333",
+      "id": 1
+    }
+  ]
+}
