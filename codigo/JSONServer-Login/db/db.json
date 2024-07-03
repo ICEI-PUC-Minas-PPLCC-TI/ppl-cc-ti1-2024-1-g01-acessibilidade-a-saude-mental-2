@@ -1,0 +1,15 @@
+{
+    "userData": {
+        "fullname": "",
+        "email": "",
+        "cpf": "",
+        "birthdate": "",
+        "password": ""
+    },
+    "questionnaireData": {
+        "session": "",
+        "reason": "",
+        "therapy": "",
+        "medication": ""
+    }
+}
