@@ -4,11 +4,9 @@ A ideia do nosso projeto é criar um site que facilitara o acesso das pessoas a 
 
 ## Alunos integrantes da equipe
 
-* Davi Soares
 * Enzo de Melo
 * Pedro Augusto
 * Henrique Cury
-* Matheus Ricardo
 * Glauco Schettino
 * Gabriel Costa
   
