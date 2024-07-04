@@ -15,7 +15,3 @@ A ideia do nosso projeto é criar um site que facilitara o acesso das pessoas a 
 * Carolina Stephanie Jerônimo de Almeida
 * Cristiano Neves Rodrigues
 * Hayala Nepomuceno Curto
-
-## Instruções de utilização
-
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
