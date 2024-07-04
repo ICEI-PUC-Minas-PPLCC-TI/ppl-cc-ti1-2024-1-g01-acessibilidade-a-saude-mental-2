@@ -1,0 +1,123 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* Tela de Amostragem de Avaliações*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+.container1 {
+  max-width: 800px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.review {
+  display: flex;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+.user-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #4bc81e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  margin-right: 15px;
+}
+.review-content {
+  flex: 1;
+}
+.review-content h5 {
+  margin: 0;
+  font-size: 18px;
+}
+.review-content p {
+  margin: 5px 0;
+}
+.star-rating {
+  color: #FFD700;
+  font-size: 18px;
+}
+.button-container {
+  text-align: center;
+}
+.btn {
+  background-color: #4bc81e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.btn:hover {
+  background-color: #508a0a;
+}
+/* Tela de Amostragem de Avaliações*/
+
+/*Tela de Avaliação*/
+.container2 {
+  max-width: 600px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4bc81e;
+}
+.rating {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.rating input {
+  display: none;
+}
+.rating label {
+  font-size: 30px;
+  color: #ddd;
+  padding: 0 5px;
+  cursor: pointer;
+}
+.rating input:checked ~ label,
+.rating label:hover,
+.rating label:hover ~ label {
+  color: #FFD700;
+}
+.rating input:checked + label:hover,
+.rating input:checked + label:hover ~ label,
+.rating input:checked ~ label:hover,
+.rating input:checked ~ label:hover ~ label {
+  color: #FFD700;
+}
+.experience-container {
+  margin-bottom: 20px;
+}
+.experience-container textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+
+}
+/*Tela de Avaliação*/

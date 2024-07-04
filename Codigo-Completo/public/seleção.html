@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/stylelogin.css" rel="stylesheet" type="text/css" />
+    <title>Seleção de Usuário</title>
+</head>
+<body>
+    <img class="selecaoimg" src="assets/imagens/AlguemParaOuvirLogo.png">
+    <div class="container-seleção">
+        <h2 class="tituloselecao">Selecione o tipo de usuário:</h2>
+        <div class="options">
+            <label class="opcao" for="paciente">
+                <input type="radio" id="paciente" name="tipo-usuario" value="paciente">
+                Paciente
+            </label>
+            <label class="opcao" for="profissional">
+                <input type="radio" id="profissional" name="tipo-usuario" value="profissional">
+                Profissional
+            </label>
+        </div>
+        <button type="submit" class="seguir" id="seguir-btn">Seguir</button>
+    </div>
+    <script src="assets/script/scriptlogin.js"></script>
+</body>
+</html>

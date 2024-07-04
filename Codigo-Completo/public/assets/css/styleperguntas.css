@@ -1,0 +1,53 @@
+body, html {
+    height: 100%;
+}
+.content {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main-content {
+    flex: 1;
+}
+.navbar {
+    background-color: #f5f5dc; /* Bege claro */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    position: relative;
+}
+
+.Logo{
+  max-width: 120px
+}
+
+.menu-icon {
+    position: absolute;
+    left: 10px;
+}
+.menu-icon img {
+    max-width: 60px; /* Ajuste conforme necessário */
+}
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.navbar-center img {
+    max-width: 250px;
+}
+.nav-icons {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.nav-icons a {
+    display: block; /* Garante que o link ocupa todo o espaço do ícone */
+    padding: 10px; /* Espaçamento interno para melhorar a usabilidade */
+}
+.nav-icons img {
+    max-width: 60px;
+}
+
+

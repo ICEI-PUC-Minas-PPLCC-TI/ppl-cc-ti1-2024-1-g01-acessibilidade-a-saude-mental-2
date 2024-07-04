@@ -1,0 +1,389 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Fulano",
+      "foto": "public/assets/imagens/clientes.png",
+      "mensagens": [
+        {
+          "texto": "Olá, queria marcar uma consulta",
+          "tipo": "cliente"
+        },
+        {
+          "texto": "claro, tenho disponivel amanha as 17",
+          "tipo": "usuario"
+        },
+        {
+          "texto": "As 17 esta otimo",
+          "tipo": "cliente"
+        },
+        {
+          "texto": "Ola, tudo bem?",
+          "tipo": "usuario"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Ciclano",
+      "foto": "public/assets/imagens/clientes.png",
+      "mensagens": [
+        {
+          "texto": "opa, queria marcar ai contigo",
+          "tipo": "cliente"
+        },
+        {
+          "texto": "claro, tenho disponivel amanha as 19",
+          "tipo": "usuario"
+        },
+        {
+          "texto": "pd ser as 19",
+          "tipo": "cliente"
+        },
+        {
+          "texto": "asasd",
+          "tipo": "usuario"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Deltrano",
+      "foto": "public/assets/imagens/clientes.png",
+      "mensagens": [
+        {
+          "texto": "boa tarde, teria horario livre sexta?",
+          "tipo": "cliente"
+        },
+        {
+          "texto": "infelizmente sexta eu nao tenho horarios, mas tenho no sabado as 17 e as 19",
+          "tipo": "usuario"
+        },
+        {
+          "texto": "entendi, vou olhar aqui e te aviso",
+          "tipo": "cliente"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Joao",
+      "foto": "public/assets/imagens/clientes.png",
+      "mensagens": [
+        {
+          "texto": "boa tarde, teria horario livre sabado?",
+          "tipo": "cliente"
+        },
+        {
+          "texto": "tenho sim, as 17 e as 19",
+          "tipo": "usuario"
+        },
+        {
+          "texto": "algum destes te atende?",
+          "tipo": "usuario"
+        },
+        {
+          "texto": "o de 17 seria otimo",
+          "tipo": "cliente"
+        },
+        {
+          "texto": "ok, irei marcar aqui",
+          "tipo": "usuario"
+        },
+        {
+          "texto": "vlw, ate sabado",
+          "tipo": "cliente"
+        },
+        {
+          "texto": "teste",
+          "tipo": "usuario"
+        }
+      ]
+    }
+  ],
+  "compromissos": [
+    {
+      "dia": "Quinta-feira",
+      "horario": "17:00",
+      "paciente": "Fulano"
+    },
+    {
+      "dia": "Sabado",
+      "horario": "17:00",
+      "paciente": "Joao"
+    },
+    {
+      "dia": "Quinta-feira",
+      "horario": "19:00",
+      "paciente": "Ciclano"
+    }
+  ],
+  "articles": [
+    {
+      "title": "A PSICANÁLISE E A PANDEMIA DA COVID-19: UMA PERSPECTIVA CRÍTICA",
+      "content": "A pandemia da COVID-19, declarada pela OMS em março de 2020, desencadeou uma série de transformações globais, levando à necessidade de compreender os impactos pós-pandêmicos nas subjetividades humanas. Este estudo adota uma abordagem psicanalítica, destacando contribuições de Winnicott, Freud e Birman, para analisar as respostas sociais durante a crise, explorando aspectos como a redução do contato presencial, o luto, o adoecimento e as repercussões psicossociais, gerando um desamparo psíquico, caracterizado como trauma, resultando em medo e incertezas. A psicanálise se adaptou à conjuntura, enfatizando a importância de compreender perspectivas subjetivas e psíquicas. A adaptação da técnica psicanalítica durante a pandemia exigiu flexibilidade e cuidado ético, possibilitando o acolhimento do sofrimento, incertezas e luto. A pesquisa buscou conexões entre os conceitos psicanalíticos e as respostas psicológicas emergentes, destacando a sensibilidade das teorias psicanalíticas para compreender as dinâmicas emocionais contemporâneas. Por fim, o estudo reforça a importância da psicanálise como ferramenta crítica na compreensão das transformações psicossociais durante a pandemia. A flexibilidade da técnica psicanalítica, evidenciada por autores contemporâneos, permitiu o enfrentamento das demandas únicas do contexto atual, demonstrando a vitalidade e adaptabilidade dessa abordagem em meio a crises.\n\nPalavras-chave: Psicanálise, Pandemia, Contemporaneidade, Freud.",
+      "id": 1
+    },
+    {
+      "title": "OLa a todos",
+      "content": "bom dia!",
+      "id": 2
+    }
+  ],
+  "paciente": [
+    {
+      "id": 1,
+      "nome": "Usuário da Silva Souza",
+      "foto": "user-photo.png",
+      "email": "Email@email.com",
+      "idade": 65,
+      "sexo": "Masculino",
+      "avaliacao": 3.5,
+      "cpf": 12345678900
+    },
+    {
+      "id": 2,
+      "nome": "Marcelo Segundo rodrigues",
+      "foto": "user-photo.png",
+      "email": "Email@email.com",
+      "idade": 65,
+      "sexo": "Masculino",
+      "avaliacao": 3.5,
+      "cpf": 22222222222
+    },
+    {
+      "id": 3,
+      "nome": "Roberto Terceiro Pedreiro",
+      "foto": "user-photo.png",
+      "email": "Email@email.com",
+      "idade": 65,
+      "sexo": "Masculino",
+      "avaliacao": 3.5,
+      "cpf": 33333333333
+    }
+  ],
+  "users": [
+    {
+      "fullname": "a",
+      "email": "gabrielcunhacosta2005@hotmail.com",
+      "cpf": "1",
+      "birthdate": "1",
+      "password": "33333",
+      "tipo": "paciente",
+      "id": 1
+    },
+    {
+      "fullname": "pedro",
+      "email": "pedro@email",
+      "cpf": "213231123",
+      "birthdate": "213213",
+      "password": "1234",
+      "tipo": "profissional",
+      "id": 2
+    },
+    {
+      "fullname": "pedro",
+      "email": "email@email",
+      "cpf": "1234",
+      "birthdate": "213213",
+      "password": "1234",
+      "tipo": "",
+      "id": 3
+    },
+    {
+      "fullname": "Enzo de Melo Bolognani ",
+      "email": "cacadordefemboy@gmail.com",
+      "cpf": "123.456.789-00",
+      "birthdate": "11/11/1111",
+      "password": "Bucetaaaa",
+      "tipo": "Bucetaaaa",
+      "id": 4
+    },
+    {
+      "fullname": "Enzo de Melo Bolognani ",
+      "email": "enzombolognani@gmail.com",
+      "cpf": "123.456.789-00",
+      "birthdate": "11/11/1111",
+      "password": "Skibidi",
+      "tipo": "Skibidi",
+      "id": 5
+    },
+    {
+      "fullname": "Enzo de Melo Bolognani ",
+      "email": "cacadordefemboy@gmail.com",
+      "cpf": "123.456.789-00",
+      "birthdate": "11/11/1111",
+      "password": "123456",
+      "tipo": "",
+      "id": 6
+    },
+    {
+      "fullname": "Enzo de Melo Bolognani ",
+      "email": "cacadordefemboy@gmail.com",
+      "cpf": "123.456.789-00",
+      "birthdate": "11/11/1111",
+      "password": "123",
+      "tipo": "",
+      "id": 7
+    },
+    {
+      "fullname": "Enzo de Melo Bolognani ",
+      "email": "cacadordefemboy@gmail.com",
+      "cpf": "123.456.789-00",
+      "birthdate": "11/11/1111",
+      "password": "4444",
+      "tipo": "",
+      "id": 8
+    },
+    {
+      "fullname": "Enzo de Melo Bolognani ",
+      "email": "enzombolognani@gmail.com",
+      "cpf": "123.456.789-00",
+      "birthdate": "11/11/1111",
+      "password": "123",
+      "tipo": "",
+      "id": 9
+    },
+    {
+      "fullname": "Enzo de Melo Bolognani ",
+      "email": "enzombolognani@gmail.com",
+      "cpf": "123.456.789-00",
+      "birthdate": "11/11/1111",
+      "password": "123123",
+      "tipo": "",
+      "id": 10
+    },
+    {
+      "fullname": "Enzo de Melo Bolognani ",
+      "email": "cacadordefemboy@gmail.com",
+      "cpf": "123.456.789-00",
+      "birthdate": "11/11/1111",
+      "password": "123",
+      "tipo": "paciente",
+      "id": 11
+    },
+    {
+      "fullname": "Enzo de Melo Bolognani ",
+      "email": "enzombolognani@gmail.com",
+      "cpf": "123.456.789-00",
+      "birthdate": "11/11/1111",
+      "password": "12345678",
+      "tipo": "paciente",
+      "id": 12
+    },
+    {
+      "fullname": "gabriel",
+      "email": "aa.a@a",
+      "cpf": "11",
+      "birthdate": "222",
+      "password": "111",
+      "tipo": "paciente",
+      "id": 13
+    }
+  ],
+  "psicologos": [
+    {
+      "id": 1,
+      "nome": "Psicologo da silva souza",
+      "foto": "00001.png",
+      "descricao": "Lorem Ipsum",
+      "precoconsulta": 200,
+      "avaliacao": 4.5,
+      "modalidade": [
+        "Presencial",
+        "Vídeo-Chamada"
+      ],
+      "localizacao": [
+        -43.93317419,
+        -19.8463697
+      ],
+      "especialidade": [
+        "Psicólogos clínicos",
+        "Sexólogos"
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Robervaldo Lima",
+      "foto": "00002.png",
+      "descricao": "Lorem Ipsum 2",
+      "precoconsulta": 500,
+      "avaliacao": 3.5,
+      "modalidade": [
+        "Chat"
+      ],
+      "localizacao": [
+        -43.98205311,
+        -19.8463697
+      ],
+      "especialidade": [
+        "Psicólogos sociais",
+        "Psicólogos forenses",
+        "Psicólogos do desporto"
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Pessoa Teste 02",
+      "foto": "00003.png",
+      "descricao": "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum",
+      "precoconsulta": 1000,
+      "avaliacao": 5,
+      "modalidade": [
+        "Chat",
+        "Presencial",
+        "Vídeo-Chamada"
+      ],
+      "localizacao": [
+        -44.08991361,
+        -19.75972857
+      ],
+      "especialidade": [
+        "Psicoterapeutas",
+        "Investigadores",
+        "Neuropsicólogos",
+        "Psicólogos do trabalho"
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Ricardo jorge",
+      "foto": "00004.png",
+      "descricao": "Psicólogo formado na universidade federal de santa catarina, Doutorado.",
+      "precoconsulta": 100,
+      "avaliacao": 2.8,
+      "modalidade": [
+        "Presencial"
+      ],
+      "localizacao": [
+        -43.22628625,
+        -22.92001208
+      ],
+      "especialidade": [
+        "Psicólogos do desenvolvimento"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Como funciona o site?",
+      "answer": "O site 'Alguém para ouvir' tem como objetivo aumentar a acessibilidade a psicólogos e psiquiatras..."
+    },
+    {
+      "id": 2,
+      "question": "Quais são os critérios mais importantes a considerar ao escolher um psicólogo para lidar com ansiedade e estresse?",
+      "answer": "Para escolher um psicólogo para ansiedade e estresse, procure um profissional especializado e experiente..."
+    },
+    {
+      "id": 3,
+      "question": "Como funciona o pagamento?",
+      "answer": "O pagamento é tratado diretamente com o psicólogo."
+    },
+    {
+      "question": "HOW???\n",
+      "answer": "",
+      "id": 4
+    }
+  ]
+}

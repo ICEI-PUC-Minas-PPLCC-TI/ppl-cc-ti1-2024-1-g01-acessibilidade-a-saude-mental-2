@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Psicólogos</title>
+    <link rel="stylesheet" href="assets/css/stylepaciente.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header style="margin-bottom: 30px;">
+        <nav>
+            <img src="assets/imagens/menu-icon.png" alt="Menu" class="menu-icon" onclick="openSlider()">
+        </nav>
+        <div class="logo">
+            <img src="assets/imagens/AlguemParaOuvirLogo.png" alt="Alguém para ouvir" class="logo-img">
+        </div>
+        <div class="user-icon">
+            <a href="usuario.html">
+            <img src="assets/imagens/user-photo.png" alt="Usuário">
+            </a>
+        </div>
+    </header>
+    <div id="mySlider" class="slider">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSlider()">&times;</a>
+        <a href="perguntas.html">Perguntas</a>
+        <a href="artigo.html">Artigos</a>
+    </div>
+    <div class="container">
+        <aside class="filters">
+            <h2>Filtros:</h2>
+            <div class="filter-group">
+                <hr>
+                <label style="font-size: 20px;">Preço por consulta:</label>
+                <div class="price-inputs">
+                    <input type="number" id="preco-min" placeholder="Mínimo" min="100" max="1000000">
+                    <span>-</span>
+                    <input type="number" id="preco-max" placeholder="Máximo" min="100" max="1000000">
+                </div>
+            </div>
+            <div class="filter-group">
+                <hr>
+                <label style="font-size: 20px;">Avaliação:</label>
+                <div class="row">
+                    <input type="range" id="avaliacao-min" min="0" max="5" step="0.5" value="0" style="padding: 0px; margin-bottom: 10px;">
+                    <div class="avaliacao-value">
+                        <img style="border-radius: 0%;max-width: 36px; margin-right: 9px" src="assets/imagens/star-empty-icon.png" alt="Estrela vazia">
+                        <img style="border-radius: 0%;max-width: 36px; margin-right: 9px" src="assets/imagens/star-empty-icon.png" alt="Estrela vazia">
+                        <img style="border-radius: 0%;max-width: 36px; margin-right: 9px" src="assets/imagens/star-empty-icon.png" alt="Estrela vazia">
+                        <img style="border-radius: 0%;max-width: 36px; margin-right: 9px" src="assets/imagens/star-empty-icon.png" alt="Estrela vazia">
+                        <img style="border-radius: 0%;max-width: 36px; margin-right: 9px" src="assets/imagens/star-empty-icon.png" alt="Estrela vazia">
+                    </div>
+                </div>
+            </div>
+            <div class="filter-group">
+                <hr>
+                <label style="font-size: 20px;">Modalidade:</label>
+                <div class="d-flex flex-row">
+                    <label class="p-2" for="presencial">Presencial</label>
+                    <input class="p-2" type="checkbox" id="presencial" name="modalidade" value="Presencial">
+                </div>
+                <div class="d-flex flex-row">
+                    <label class="p-2" for="chat">Chat</label>
+                    <input class="p-2" type="checkbox" id="chat" name="modalidade" value="Chat">
+                </div>
+                <div class="d-flex flex-row">
+                    <label class="p-2" for="video-chamada">Video-Chamada</label>
+                    <input class="p-2" type="checkbox" id="video-chamada" name="modalidade" value="Vídeo-Chamada">
+                </div>
+            </div>
+            <div class="filter-group" id="distancia-group" style="display: none;">
+                <hr>
+                <label style="font-size: 20px;">Distância (km):</label>
+                <input type="number" id="distancia" min="1" max="100" value="5">
+            </div>
+            <div class="filter-group">
+                <hr>
+                <label style="font-size: 20px;">Especialidade:</label>
+                <select id="especialidade">
+                    <option value="">Nenhuma Específica</option>
+                    <option>Psicólogos clínicos</option>
+                    <option>Psicólogos de educação</option>
+                    <option>Psicólogos do desenvolvimento</option>
+                    <option>Psicoterapeutas</option>
+                    <option>Investigadores</option>
+                    <option>Neuropsicólogos</option>
+                    <option>Psicólogos do trabalho</option>
+                    <option>Psicólogos sociais</option>
+                    <option>Psicólogos forenses</option>
+                    <option>Psicólogos do desporto</option>
+                    <option>Sexólogos</option>
+                </select>
+            </div>
+        </aside>
+        <main class="results">
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Pesquisar" style="margin-right: 0px; border-radius: 5px 0 0 5px;">
+                <button onclick="searchPsychologists()" style="border-radius: 0 5px 5px 0; background-color: #64d95e; border-color: #64d95e;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" style="fill: black;">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                    </svg>
+                </button>
+                <div class="sort-by">
+                    <label>Ordenar por:</label>
+                    <select onclick="searchPsychologists()" id="ordenar-por" class="btn btn-primary" style="background-color: #64d95e; border-color: #64d95e; color: black">
+                        <option value="none">Nenhum</option>
+                        <option value="rating">Avaliação</option>
+                        <option value="distance">Distância</option>
+                        <option value="price">Preço</option>
+                    </select>
+                </div>
+            </div>
+            <div id="psychologist-list"></div>
+        </main>
+    </div>
+    <script src="assets/script/scriptpaciente.js"></script>
+    <script>
+        function openSlider() {
+            document.getElementById("mySlider").style.width = "250px";
+        }
+
+        function closeSlider() {
+            document.getElementById("mySlider").style.width = "0";
+        }
+    </script>
+
+</body>
+</html>
