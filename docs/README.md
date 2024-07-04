@@ -1,23 +1,3 @@
-# Documentação do Projeto (TIDocs)
-
-Esta pasta armazena a documentação do projeto para a disciplina de **Trabalho Interdisciplinar 1** dos cursos de Tecnologia da Informação da **[PUC Minas](https://pucminas.br)**. Essa documentação é estruturada na forma de um site que fica disponível por meio do GitHub Pages e pode ser incluído, também, no site da solução hospedada. Um [exemplo publicado do TIDocs](https://webtech-puc-minas.github.io/ti1-template/) está disponível por meio do repositório do **[WebTech PUC Minas](https://github.com/webtech-pucminas)**.
-
-A documentação do projeto inclui as seguintes seções:
-
-1. Introdução
-2. Contexto
-3. Concepção
-4. Metodologia
-5. Solução
-6. FAQ (Questões frequentes)
-7. Referências Bibliográficas
-
-O template para o site é estruturado e permite que a equipe evolua a documentação do projeto à medida que avance no desenvolvimento.
-
-# Orientações gerais
-
-Esta seção traz explicações breves sobre o conjunto de artefatos que precisam ser incluídos na documentação do projeto com uma conjunto de links importantes para que se entenda como criar cada coisa. 
-
 ## Problema
 
   Apesar da crescente conscientização sobre saúde mental, muitas pessoas enfrentam barreiras significativas ao buscar informações e assistência. Essas barreiras incluem baixa renda, falta de tempo, falta de interesse/preguiça, longas distâncias ou até mesmo dificuldade em encontrar um bom profissional da área. Nosso objetivo é abordar esses desafios, fornecendo uma solução digital que seja acessível, informativa e empática.
