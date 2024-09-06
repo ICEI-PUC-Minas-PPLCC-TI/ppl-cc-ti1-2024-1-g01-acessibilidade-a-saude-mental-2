@@ -2,30 +2,32 @@ cff-version: 1.0.1
 message: Please cite this software using these metadata.
 title: Acessibilidade à saude mental 2
 authors:
-  - family-names: Teste
-    given-names: Teste
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: de Melo
+    given-names: Enzo
+  - family-names: Augusto
+    given-names: Pedro
+  - family-names: Cury
+    given-names: Henrique
+  - family-names: Schettino
+    given-names: Glauco
+  - family-names: Costa
+    given-names: Gabriel
   - name-suffix: Professor
     affiliation: PUC Minas
     family-names: Rodrigues
     given-names: Cristiano
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Jerônimo de Almeida
+    given-names: Carolina Stephanie
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Nepomuceno Curto
+    given-names: Hayala
 keywords:
   - saúde
   - mental
 repository-code: https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-acessibilidade-a-saude-mental-2/
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2022-07-14
+date-released: 2024-07-04
