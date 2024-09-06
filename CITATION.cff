@@ -23,9 +23,9 @@ authors:
     family-names: 
     given-names: 
 keywords:
-  - 
-  - 
-repository-code: 
+  - saúde
+  - mental
+repository-code: https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-acessibilidade-a-saude-mental-2/
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2022-07-14
